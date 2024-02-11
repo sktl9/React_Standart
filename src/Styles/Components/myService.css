@@ -1,0 +1,89 @@
+.Main-container{
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    padding: 0 20px;
+}
+
+.MySevice-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MyService-header{
+font-weight: 700;
+font-size: 32px;
+line-height: 124%;
+text-transform: capitalize;
+color: #2b2b2b;
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+.MyService-description{
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+text-transform: capitalize;
+text-align: center;
+color: #767676;
+max-width: 438px;
+padding-top: 25px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.myService-block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+    justify-content: flex-start; /* или space-around для равномерного распределения */
+}
+
+.myService-block__item {
+    flex: 1 1 calc(33% - 20px); /* Базовый размер, позволяющий гибко адаптироваться */
+    min-width: 250px; /* Минимальная ширина для элемента, при меньшем размере элемент переносится на новую строку */
+    height: 225px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 29px;
+}
+
+.myService-block__title{
+font-weight: 700;
+font-size: 18px;
+line-height: 124%;
+text-transform: capitalize;
+color: #2b2b2b;
+padding-top: 25px;
+}
+
+.myService-block__description{
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+text-transform: capitalize;
+text-align: center;
+color: #767676;
+padding-top: 15px;
+}
+
+.myService-block__href{
+font-weight: 700;
+font-size: 12px;
+color: #ffb400;
+padding-top: 15px;
+}
+
+.myService-block__title_last{
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 124%;
+    text-transform: capitalize;
+    color: #2b2b2b;
+}

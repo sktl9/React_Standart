@@ -1,0 +1,87 @@
+@import url("./Components/myService.css");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Элементы списка */
+ol, ul {
+  list-style: none;
+}
+
+/* Элементы таблицы */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Установка базовых стилей для текстовых элементов */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strong, sub, sup, var, b, i,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset для старых браузеров */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Обнуление стилей списка */
+ol, ul {
+  list-style: none;
+}
+
+/* Обнуление стилей таблицы */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Обнуление стилей для ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Обнуление стилей для кнопок и полей ввода */
+button, input, optgroup, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* Удаление стандартной обводки у кнопок при фокусе */
+button, input {
+  outline: none;
+}
+
+/* Стили для IE10+ для удаления кликабельной области вокруг кнопок */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.App{
+     max-width: 970px;
+     margin: 0 auto;
+}
+
+
+
+
